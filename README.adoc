@@ -1,0 +1,19 @@
+= Getting Started
+
+== REST
+
+```
+curl -X POST http://localhost:8080/api/foo \
+-H 'Content-Type: application/json' \
+-d '{"name":"bar"}'
+```
+
+```
+curl -X GET http://localhost:8080/api/foo \
+-H 'Content-Type: application/json'
+```
+
+```
+curl -X GET http://localhost:8080/api/foo/1 \
+-H 'Content-Type: application/json'
+```
